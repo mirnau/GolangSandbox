@@ -4,8 +4,6 @@ package algorithms
 	Requires a sorted array as input a
 */
 
-type Comparator[T any] func(a, b T) int
-
 func BinarySearch[T any](key T, a []T, cmp Comparator[T]) T {
 
 	low := 0
